@@ -13,6 +13,10 @@ def user_input_detection() -> str:
 def function_detection(user_input: str) -> str:
 	# This function take user input with 'str' type and then try to detect what want a user
 
+	if user_input in config.functions:
+		result = config.functions[user_input]()
+		print(result)
+	
 	return f'User input - {user_input}'
 
 while True:
