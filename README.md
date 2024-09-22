@@ -1,2 +1,3 @@
 # EVA-2.0
-This repository contains all file and code for project EVA
+
+EVA it's AI assistant project, to help and simplify work with Computer.
